@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rulers (0.0.1)
+    rulers (0.0.2)
       rack
 
 GEM
@@ -17,7 +17,7 @@ GEM
       ast (~> 2.4.1)
       racc
     racc (1.7.3)
-    rack (2.2.8)
+    rack (3.0.8)
     rack-test (2.1.0)
       rack (>= 1.3)
     rainbow (3.1.1)
@@ -55,6 +55,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   minitest
